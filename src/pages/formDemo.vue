@@ -16,7 +16,8 @@
         data(){
           return{
             message:'Runoob',
-            message2:'菜鸟教程\r\nhttp://www.runoob.com'
+            message2:'菜鸟教程\r\nhttp://www.runoob.com',
+            message3:''
           }
         }
     }
