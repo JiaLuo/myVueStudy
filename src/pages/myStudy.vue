@@ -27,6 +27,7 @@
     <button @click="formDemoFunc">表单Demo</button>
     <button @click="eventProcessor">事件处理器</button>
     <button @click="styleClick">Vue.js style（内联样式）</button>
+    <button @click="checkedBox">复选框</button>
   </div>
 </template>
 
@@ -89,6 +90,11 @@
         styleClick:function () {
           this.$router.push({
             name:'styleDemo'
+          })
+        },
+        checkedBox:function () {
+          this.$router.push({
+            name:'checkedBoxDemo'
           })
         }
       }

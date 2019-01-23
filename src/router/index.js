@@ -6,6 +6,7 @@ import ClassObject from '@/pages/classObject'
 import styleDemo from '@/pages/styleDemo'
 import EventProcessor from '@/pages/eventProcessor'
 import FormDemo from '@/pages/formDemo'
+import CheckedBoxDemo from '@/pages/checkedBoxDemo'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path:'/formDemo',
       name:'formDemo',
       component:FormDemo
+    },
+    {
+      path:'/checkedBoxDemo',
+      name:'checkedBoxDemo',
+      component:CheckedBoxDemo
     }
   ]
 })
