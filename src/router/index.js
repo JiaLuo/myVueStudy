@@ -9,6 +9,7 @@ import FormDemo from '@/pages/formDemo'
 import CheckedBoxDemo from '@/pages/checkedBoxDemo'
 import RadioBox from '@/pages/radioBox'
 import SelectDemo from '@/pages/selectDemo'
+import ComponentDemo from '@/pages/componentDemo'
 
 Vue.use(Router)
 
@@ -58,6 +59,11 @@ export default new Router({
       path:'/selectDemo',
       name:'selectDemo',
       component:SelectDemo
+    },
+    {
+      path:'/componentDemo',
+      name:'componentDemo',
+      component:ComponentDemo
     }
   ]
 })
