@@ -28,6 +28,7 @@
     <button @click="eventProcessor">事件处理器</button>
     <button @click="styleClick">Vue.js style（内联样式）</button>
     <button @click="checkedBox">复选框</button>
+    <button @click="RadioBox">单选框</button>
   </div>
 </template>
 
@@ -95,6 +96,11 @@
         checkedBox:function () {
           this.$router.push({
             name:'checkedBoxDemo'
+          })
+        },
+        RadioBox:function () {
+          this.$router.push({
+            name:'radioBox'
           })
         }
       }

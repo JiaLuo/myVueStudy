@@ -7,6 +7,7 @@ import styleDemo from '@/pages/styleDemo'
 import EventProcessor from '@/pages/eventProcessor'
 import FormDemo from '@/pages/formDemo'
 import CheckedBoxDemo from '@/pages/checkedBoxDemo'
+import RadioBox from '@/pages/radioBox'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
       path:'/checkedBoxDemo',
       name:'checkedBoxDemo',
       component:CheckedBoxDemo
+    },
+    {
+      path:'/radioBox',
+      name:'radioBox',
+      component:RadioBox
     }
   ]
 })
