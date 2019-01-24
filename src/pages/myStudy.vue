@@ -29,6 +29,7 @@
     <button @click="styleClick">Vue.js style（内联样式）</button>
     <button @click="checkedBox">复选框</button>
     <button @click="RadioBox">单选框</button>
+    <button @click="selectDemo">列表选择</button>
   </div>
 </template>
 
@@ -101,6 +102,11 @@
         RadioBox:function () {
           this.$router.push({
             name:'radioBox'
+          })
+        },
+        selectDemo:function () {
+          this.$router.push({
+            name:'selectDemo',
           })
         }
       }

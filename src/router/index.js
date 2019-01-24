@@ -8,6 +8,7 @@ import EventProcessor from '@/pages/eventProcessor'
 import FormDemo from '@/pages/formDemo'
 import CheckedBoxDemo from '@/pages/checkedBoxDemo'
 import RadioBox from '@/pages/radioBox'
+import SelectDemo from '@/pages/selectDemo'
 
 Vue.use(Router)
 
@@ -52,6 +53,11 @@ export default new Router({
       path:'/radioBox',
       name:'radioBox',
       component:RadioBox
+    },
+    {
+      path:'/selectDemo',
+      name:'selectDemo',
+      component:SelectDemo
     }
   ]
 })
