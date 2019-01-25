@@ -11,12 +11,23 @@ import RadioBox from '@/pages/radioBox'
 import SelectDemo from '@/pages/selectDemo'
 import ComponentDemo from '@/pages/componentDemo'
 
+/**
+ * caicai module
+ * */
+import AboutUsComponent from '@/components/caicai/aboutsUs'
+
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    // 默认路由，用户敲完域名的默认页面
     {
       path: '/',
+      name: 'myStudyDemo',
+      component: MyStudyDemo
+    },
+    {
+      path: '/helloWorld',
       name: 'HelloWorld',
       component: HelloWorld
     },
@@ -64,6 +75,14 @@ export default new Router({
       path:'/componentDemo',
       name:'componentDemo',
       component:ComponentDemo
-    }
+    },
+    /**
+     * caicai module
+     * */
+    {
+      path:'/aboutUs',
+      name:'aboutUs',
+      component:AboutUsComponent
+    },
   ]
 })

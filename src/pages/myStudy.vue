@@ -6,7 +6,7 @@
         <th>商品名称</th>
         <th>商品价格</th>
         <th>购买数量</th>
-        <th>操作</th>
+        <th>操作 </th>
       </tr>
       <tr v-for="iphone in IP_Json">
         <td>{{iphone.id}}</td>
