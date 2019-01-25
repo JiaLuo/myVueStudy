@@ -31,6 +31,7 @@
     <button @click="RadioBox">单选框</button>
     <button @click="selectDemo">列表选择</button>
     <button @click="componentDemo">组件Demo</button>
+    <button @click="customInstructions">自定义指令</button>
   </div>
 </template>
 
@@ -113,6 +114,11 @@
         componentDemo:function () {
           this.$router.push({
             name:'componentDemo'
+          })
+        },
+        customInstructions:function () {
+          this.$router.push({
+            name:'customInstructions'
           })
         }
       }

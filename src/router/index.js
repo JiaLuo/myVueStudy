@@ -10,6 +10,7 @@ import CheckedBoxDemo from '@/pages/checkedBoxDemo'
 import RadioBox from '@/pages/radioBox'
 import SelectDemo from '@/pages/selectDemo'
 import ComponentDemo from '@/pages/componentDemo'
+import CustomInstructions from '@/pages/customInstructions'
 
 Vue.use(Router)
 
@@ -64,6 +65,11 @@ export default new Router({
       path:'/componentDemo',
       name:'componentDemo',
       component:ComponentDemo
+    },
+    {
+      path:'/customInstructions',
+      name:'customInstructions',
+      component:CustomInstructions
     }
   ]
 })
