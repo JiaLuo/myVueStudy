@@ -32,6 +32,7 @@
     <button @click="selectDemo">列表选择</button>
     <button @click="componentDemo">组件Demo</button>
     <button @click="customInstructions">自定义指令</button>
+    <button @click="transitionDemo">动画Demo</button>
   </div>
 </template>
 
@@ -119,6 +120,11 @@
         customInstructions:function () {
           this.$router.push({
             name:'customInstructions'
+          })
+        },
+        transitionDemo:function () {
+          this.$router.push({
+            name:'transitionDemo'
           })
         }
       }

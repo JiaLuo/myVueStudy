@@ -11,6 +11,7 @@ import RadioBox from '@/pages/radioBox'
 import SelectDemo from '@/pages/selectDemo'
 import ComponentDemo from '@/pages/componentDemo'
 import CustomInstructions from '@/pages/customInstructions'
+import TransitionDemo from '@/pages/transitionDemo'
 
 Vue.use(Router)
 
@@ -70,6 +71,11 @@ export default new Router({
       path:'/customInstructions',
       name:'customInstructions',
       component:CustomInstructions
+    },
+    {
+      path:'/transitionDemo',
+      name:'transitionDemo',
+      component:TransitionDemo
     }
   ]
 })
